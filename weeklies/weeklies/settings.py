@@ -32,6 +32,8 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'contests.apps.ContestsConfig',
+    'rest_framework',
+    'ui',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
